@@ -14,5 +14,17 @@ export class RegisterService {
     return this.http.get<any>(this.baseUrl);
   }
 
+  getUserById(id: number){
+
+  }
+
+  deleteUser(id: number){
+
+  }
+
+  updateUser(id: number, updateObj : any){
+
+  }
+
 
 }
