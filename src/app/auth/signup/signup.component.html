@@ -1,0 +1,39 @@
+<div class="center card p-4">
+  <form [formGroup]="signupForm" class="row g-3" (ngSubmit)="signup()">
+    <div class="col-md-6">
+      <label for="inputEmail4" class="form-label">Email</label>
+      <input formControlName="email" type="email" class="form-control" id="inputEmail4">
+      <small *ngIf="signupForm.controls['email'].dirty && signupForm.hasError('required', 'email')" class="text-danger">*Email is required</small>
+      <small *ngIf="signupForm.hasError('email', 'email')" class="text-danger">*Email
+        is invalid</small>
+    </div>
+    <div class="col-md-6">
+      <label for="inputPassword4" class="form-label">Password</label>
+      <input formControlName="password" type="password" class="form-control" id="inputPassword4">
+      <small *ngIf="signupForm.controls['password'].dirty && signupForm.hasError('required', 'password')" class="text-danger">*password
+        is required</small>
+    </div>
+    <div class="col-12">
+      <label for="inputAddress" class="form-label">Address</label>
+      <input formControlName="address" type="text" class="form-control" id="inputAddress" placeholder="1234 Main St">
+    </div>
+    <div class="col-md-6">
+      <label for="inputCity" class="form-label">City</label>
+      <input formControlName="city" type="text" class="form-control" id="inputCity">
+    </div>
+    <div class="col-md-4">
+      <label for="inputState" class="form-label">State</label>
+      <select formControlName="state" id="inputState" class="form-select">
+        <option selected>Choose...</option>
+        <option>Maharashtra</option>
+      </select>
+    </div>
+    <div class="col-md-2">
+      <label for="inputZip" class="form-label">Zip</label>
+      <input formControlName="zip" type="text" class="form-control" id="inputZip">
+    </div>
+    <div class="col-12">
+      <button type="submit" class="btn btn-primary">Sign in</button>
+    </div>
+  </form>
+</div>

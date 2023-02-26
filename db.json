@@ -1,0 +1,22 @@
+{
+  "registerList": [
+    {
+      "email": "sashikumar.yadav@morningstar.com",
+      "password": "123456",
+      "address": "Regal Square, Flat No. 804, Floor No. 8,, Building No.5, Sonale Road, Bhadwad Gao, New Bhiwandi, Thane",
+      "city": "Thane",
+      "state": "Maharashtra",
+      "zip": "421302",
+      "id": 1
+    },
+    {
+      "email": "abc@gmail.com",
+      "password": "1234",
+      "address": "asasa",
+      "city": "assad",
+      "state": "Maharashtra",
+      "zip": "12345",
+      "id": 2
+    }
+  ]
+}
