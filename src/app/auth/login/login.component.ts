@@ -1,3 +1,4 @@
+import { Router } from '@angular/router';
 import { RegisterService } from './../services/register.service';
 import { Component, OnInit } from '@angular/core';
 import { NgForm } from '@angular/forms';
@@ -12,10 +13,11 @@ export class LoginComponent implements OnInit {
     email:'',
     password:''
   };
-  constructor(private registerService : RegisterService){
+  constructor(private registerService : RegisterService, private router : Router){
 
   }
   ngOnInit(): void {
+    localStorage.clear();
     this.registerService.getUsers().subscribe({
       next:(res)=>{
         console.log(res)
@@ -27,6 +29,11 @@ export class LoginComponent implements OnInit {
   }
 
   login(form:NgForm){
-    console.log(form.value)
+    if (form.valid){
+      localStorage.setItem('token', 'eyhdjkkaayejagffsdkjkjs-sdjbhsghdksdd-sds');
+      this.router.navigate(['home'])
+    }else{
+      alert("Form is invalid")
+    }
   }
 }

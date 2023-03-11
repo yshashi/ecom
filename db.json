@@ -18,5 +18,167 @@
       "zip": "12345",
       "id": 2
     }
+  ],
+  "productList":[
+    {
+      "id": 1,
+      "name": "Bread - Roll, Italian",
+      "descrption": "Veal - Loin",
+      "createdDate": "5/31/2022",
+      "modifliedDate": "4/12/2022",
+      "price": 34
+    },
+    {
+      "id": 2,
+      "name": "Cherries - Frozen",
+      "descrption": "Wine - Rosso Del Veronese Igt",
+      "createdDate": "3/30/2022",
+      "modifliedDate": "2/20/2023",
+      "price": 28
+    },
+    {
+      "id": 3,
+      "name": "Mushroom - Porcini Frozen",
+      "descrption": "Lettuce - Frisee",
+      "createdDate": "10/1/2022",
+      "modifliedDate": "6/3/2022",
+      "price": 99
+    },
+    {
+      "id": 4,
+      "name": "Pineapple - Regular",
+      "descrption": "Ham - Virginia",
+      "createdDate": "9/7/2022",
+      "modifliedDate": "4/1/2022",
+      "price": 23
+    },
+    {
+      "id": 5,
+      "name": "Chicken - Leg, Boneless",
+      "descrption": "Soup - Campbells Mac N Cheese",
+      "createdDate": "6/16/2022",
+      "modifliedDate": "5/1/2022",
+      "price": 91
+    },
+    {
+      "id": 6,
+      "name": "Chips Potato Swt Chilli Sour",
+      "descrption": "Soup - Beef, Base Mix",
+      "createdDate": "10/18/2022",
+      "modifliedDate": "9/1/2022",
+      "price": 5
+    },
+    {
+      "id": 7,
+      "name": "Bread - Burger",
+      "descrption": "Cake - Mini Cheesecake",
+      "createdDate": "9/18/2022",
+      "modifliedDate": "3/2/2023",
+      "price": 10
+    },
+    {
+      "id": 8,
+      "name": "Cookie - Oreo 100x2",
+      "descrption": "Roe - White Fish",
+      "createdDate": "4/8/2022",
+      "modifliedDate": "9/9/2022",
+      "price": 8
+    },
+    {
+      "id": 9,
+      "name": "Pasta - Orzo, Dry",
+      "descrption": "Tumeric",
+      "createdDate": "1/11/2023",
+      "modifliedDate": "8/26/2022",
+      "price": 57
+    },
+    {
+      "id": 10,
+      "name": "Dill Weed - Dry",
+      "descrption": "White Fish - Filets",
+      "createdDate": "6/30/2022",
+      "modifliedDate": "12/25/2022",
+      "price": 98
+    },
+    {
+      "id": 11,
+      "name": "Wine - Red, Harrow Estates, Cab",
+      "descrption": "Bread Country Roll",
+      "createdDate": "7/8/2022",
+      "modifliedDate": "5/8/2022",
+      "price": 80
+    },
+    {
+      "id": 12,
+      "name": "Cheese - Mozzarella",
+      "descrption": "Coffee Beans - Chocolate",
+      "createdDate": "3/26/2022",
+      "modifliedDate": "2/3/2023",
+      "price": 37
+    },
+    {
+      "id": 13,
+      "name": "Potatoes - Idaho 80 Count",
+      "descrption": "Bread - Multigrain",
+      "createdDate": "6/21/2022",
+      "modifliedDate": "2/4/2023",
+      "price": 8
+    },
+    {
+      "id": 14,
+      "name": "Arizona - Green Tea",
+      "descrption": "Asparagus - Green, Fresh",
+      "createdDate": "4/16/2022",
+      "modifliedDate": "12/20/2022",
+      "price": 50
+    },
+    {
+      "id": 15,
+      "name": "Pail With Metal Handle 16l White",
+      "descrption": "Wine - Shiraz Wolf Blass Premium",
+      "createdDate": "7/28/2022",
+      "modifliedDate": "1/13/2023",
+      "price": 11
+    },
+    {
+      "id": 16,
+      "name": "Wine - Placido Pinot Grigo",
+      "descrption": "Wine - Lamancha Do Crianza",
+      "createdDate": "2/13/2023",
+      "modifliedDate": "10/5/2022",
+      "price": 37
+    },
+    {
+      "id": 17,
+      "name": "Sea Bass - Whole",
+      "descrption": "Clementine",
+      "createdDate": "9/13/2022",
+      "modifliedDate": "2/9/2023",
+      "price": 60
+    },
+    {
+      "id": 18,
+      "name": "Foam Espresso Cup Plain White",
+      "descrption": "Crawfish",
+      "createdDate": "12/13/2022",
+      "modifliedDate": "8/17/2022",
+      "price": 53
+    },
+    {
+      "id": 19,
+      "name": "Salmon - Atlantic, Fresh, Whole",
+      "descrption": "Roe - White Fish",
+      "createdDate": "2/8/2023",
+      "modifliedDate": "11/8/2022",
+      "price": 38
+    },
+    {
+      "id": 20,
+      "name": "Lettuce - Green Leaf",
+      "descrption": "Wine - Guy Sage Touraine",
+      "createdDate": "12/22/2022",
+      "modifliedDate": "5/28/2022",
+      "price": 56
+    }
   ]
 }

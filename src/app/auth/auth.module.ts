@@ -8,6 +8,7 @@ import { LoginComponent } from './login/login.component';
 import { SignupComponent } from './signup/signup.component';
 import { RegisterService } from './services/register.service';
 import { HttpClientModule } from '@angular/common/http';
+import { SharedModule } from '../shared/shared.module';
 
 
 @NgModule({
@@ -17,7 +18,7 @@ import { HttpClientModule } from '@angular/common/http';
     SignupComponent
   ],
   imports: [
-    CommonModule,
+    SharedModule,
     AuthRoutingModule,
     FormsModule,
     ReactiveFormsModule,

@@ -1,1 +1,33 @@
-<p>product works!</p>
+
+<app-header></app-header>
+<div class="container">
+  <h1>Products!</h1><br>
+  <br>
+  <label for="">Filter: </label> &nbsp;
+  <input type="text" [(ngModel)]="searchTerm">
+  <table class="table">
+    <thead>
+      <tr>
+        <th scope="col">Product ID</th>
+        <th scope="col">Name</th>
+        <th scope="col">Description</th>
+        <th scope="col">Created Date</th>
+        <th scope="col">Modified Date</th>
+        <th scope="col">Price</th>
+        <th>Action</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr *ngFor="let row of products | filter:searchTerm">
+        <td>{{row.id}}</td>
+        <td>{{row.name}}</td>
+        <td>{{row.descrption | myUpperCase}}</td>
+        <td>{{row.createdDate | date:'medium'}}</td>
+        <td>{{row.modifiedDate}}</td>
+        <td>{{row.price | currency:'INR'}}</td>
+        <td><Button class="btn btn-warning" [routerLink]="['/home/product-detail',row.id]">View</Button></td>
+        <td><Button class="btn btn-danger" (click)="buy(row)">Buy</Button></td>
+      </tr>
+    </tbody>
+  </table>
+</div>
